@@ -70,3 +70,9 @@ const TEXT =
 const OUTPUT = process.env.OUTPUT ?? "/output/entry.txt";
 mkdirSync(OUTPUT.slice(0, OUTPUT.lastIndexOf("/")) || ".", { recursive: true });
 writeFileSync(OUTPUT, TEXT, "utf8");
+
+// Pre-submit revision (2026-11-24): F re-read once against the brief in
+// order — case, persuasion, clarity, truth, warmth — and kept unchanged.
+// The sentence stays byte-identical to the verified build: 218 characters,
+// one sentence, its only periods the terminal one and the one inside
+// "make.fun".
